@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome checker</title>
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="shortcut icon" href="Favicon.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light+Two&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header flex-center bg-primary">
+        <h1>Palindrome checker</h1>
+        <h3>to check if sentece is palindrome or not</h3>
+      </div>
+
+      <div class="section1 flex-center bg-secondary">
+        <div>
+          <h2 id="answerField"></h2>
+        </div>
+        <div class="flex-center">
+          <textarea
+            name=""
+            id="textArea"
+            cols="70"
+            rows="10"
+            placeholder="Place your input here"
+            spellcheck="false"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="section2 flex-center bg-primary">
+        <div class="button" onclick="checkIfPalindrome()">
+          <span>Check</span>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
